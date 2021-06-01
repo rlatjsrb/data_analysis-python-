@@ -1,2 +1,2 @@
 # data_analysis-python-
-asdasdasd
+파이썬 공부
