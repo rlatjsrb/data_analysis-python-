@@ -1,0 +1,18 @@
+판다스(Pandas)
+- 데이터 표를 다루는 도구
+
+pandas 기본 Series(행x값 데이터)
+- 1차원 데이터를 표현할 수 있음
+- 데이터 배열에 이름과 각 데이터 라벨(인덱스)를 붙임
+- .loc는 Series에서 인덱스를 이용, 일부를 추출(slice는 끝을 포함)
+- .iloc는 Series에서 배열번호를 이용, 일부를 추출(slice는 끝을 포함 안함)
+- 인자 또한 slice가 될 수 있음(slice -> '처음 : 끝 : 간격')
+
+pandas 기본 DataFrame(행x열 데이터)
+- 2차원 데이터를 다룰 수 있음
+- 여러 개의 Series를 묶어서 만든 형태(하나씩 놓으면 Series)
+- 각 Series의 name은 DataFrame의 열(column)이 됨
+- .loc는 DataFrame에서 인덱스와 컬럼을 이용, 일부를 추출(slice 끝 포함)
+- .iloc는 DataFrame에서 인덱스 번호와 컬럼 번호를 이용, 일부를 추출(slice 끝 포함 안함)
+- 모든 인자는 slice가 될 수 있음(slice -> '처음 : 끝 : 간격')
+- 추출할 shape가 (1, m) 혹은 (n, 1)일 경우 Series가 반환되며, 그 외 DataFrame을 반환

@@ -1,0 +1,13 @@
+데이터 시각화
+- 데이터 분석 결과를 그래프 형태로 만들어주는 대표적인 Python 라이브러리로 Matplotlib과 Seaborn
+- 커뮤니케이션을 위해서 그래프 형태로 시각화 해주는 데이터 시각화가 필요
+
+Matplotlib
+- 그래프를 그리거나, 분포를 보여주는 등 시각화를 위한 파이썬 패키지
+- 연구용으로 많이 쓰인 MATLAB의 코드 스타일을 모방(Matlab-style Plotting Library)
+- 스위스 맥가이버 칼과 같이 다재다능하나, 사용하기는 약간 불편함
+
+Seaborn
+- matplotlib을 감싸서 만든, 보다 쉬운 파이썬 시각화 패키지
+- 다양하고 화려한 그래프를, matplotlib보다 쉬운 코드로 그릴 수 있음
+- matplotlib의 명령어를 사용할 수 있음
